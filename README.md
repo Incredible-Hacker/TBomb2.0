@@ -44,7 +44,7 @@
 * `pip2 install requirements.txt`
 * ` bash TBomb2.0.sh`
 
-```
+
 ## INSTALLATION [Kali Linux] :
 
 * `apt-get update -y`
