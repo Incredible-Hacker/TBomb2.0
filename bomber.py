@@ -187,9 +187,9 @@ def check_for_updates():
 def notifyen():
     try:
         if DEBUG_MODE:
-            url = "https://github.com/TheSpeedX/TBomb/raw/dev/.notify"
+            url = "https://github.com/Incredible-Hacker/TBomb2.0/raw/dev/.notify"
         else:
-            url = "https://github.com/TheSpeedX/TBomb/raw/master/.notify"
+            url = "https://github.com/Incredible-Hacker/TBomb2.0/raw/master/.notify"
         noti = requests.get(url).text.upper()
         if len(noti) > 10:
             mesgdcrt.SectionMessage("NOTIFICATION: " + noti)
