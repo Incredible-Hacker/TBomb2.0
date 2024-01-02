@@ -153,6 +153,9 @@ do
     elif [ $ch -eq 5 ];then
         banner
         exit
+    elif [ $ch -eq 5 ];then
+        banner
+        exit
     else
         echo -e "\e[4;32m Invalid Input !!! \e[0m"
         pause
