@@ -121,7 +121,7 @@ def do_zip_update():
     else:
         mesgdcrt.FailureMessage("Unable to update TBomb.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/_TheSpeedX/TBomb.git")
+            "Grab The Latest one From https://github.com/Incredible-Hacker/TBomb2.0")
 
     sys.exit()
 
@@ -155,7 +155,7 @@ def do_git_update():
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/TheSpeedX/TBomb.git HEAD")
+            "git pull https://github.com/Incredible-Hacker/TBomb2.0 HEAD")
     sys.exit()
 
 
