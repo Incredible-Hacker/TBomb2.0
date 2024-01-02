@@ -1,5 +1,5 @@
 #!/bin/bash
-
+apt install lolcat
 detect_distro() {
     if [[ "$OSTYPE" == linux-android* ]]; then
             distro="termux"
