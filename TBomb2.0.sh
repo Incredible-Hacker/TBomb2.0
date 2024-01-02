@@ -1,5 +1,6 @@
 #!/bin/bash
-apt install lolcat
+pip2 install lolcat
+
 detect_distro() {
     if [[ "$OSTYPE" == linux-android* ]]; then
             distro="termux"
