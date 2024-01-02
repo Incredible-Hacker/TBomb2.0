@@ -22,8 +22,6 @@ Here are the steps on how to install TBomb2.0 tool in your termux:
 
 Open Termux.
 
-Update and upgrade the repositories:
-
     pkg update && upgrade 
 
 Command description:- Using this command you can update & upgrade your termux .
