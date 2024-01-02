@@ -243,7 +243,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
+    mesgdcrt.SuccessMessage("TBomb2.0 was created by IncredibleHacker")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -364,7 +364,7 @@ def selectnode(mode="sms"):
 
 mesgdcrt = MessageDecorator("icon")
 if sys.version_info[0] != 3:
-    mesgdcrt.FailureMessage("TBomb will work only in Python v3")
+    mesgdcrt.FailureMessage("TBomb2.0 will work only in Python v3")
     sys.exit()
 
 try:
@@ -383,14 +383,14 @@ RESET_ALL = Style.RESET_ALL
 ASCII_MODE = False
 DEBUG_MODE = False
 
-description = """TBomb - Your Friendly Spammer Application
+description = """TBomb2.0 - Your Friendly Spammer Application
 
 TBomb can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-TBomb is not intented for malicious uses.
+TBomb2.0 is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
